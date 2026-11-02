@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 800" role="img" aria-labelledby="title desc">
+<title id="title">Early connections</title><desc id="desc">Original abstract illustration inspired by nurturing relationships, with interwoven human silhouettes, organic arcs, and gentle warm colours.</desc>
+<defs>
+<linearGradient id="warm" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e4a98b"/><stop offset="1" stop-color="#ca7e7b"/></linearGradient>
+<linearGradient id="cool" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#bca7c4"/><stop offset="1" stop-color="#9489b4"/></linearGradient>
+<linearGradient id="cream" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f9ead8"/><stop offset="1" stop-color="#edcbb8"/></linearGradient>
+</defs>
+<circle cx="385" cy="395" r="316" fill="#eedde2"/>
+<path d="M129 537C82 407 130 219 276 149c125-61 289-20 376 94" stroke="#fff7ed" stroke-width="3" fill="none" opacity=".75"/>
+<path d="M153 597c129 136 335 159 486 27" stroke="#cf9fa8" stroke-width="2" fill="none" opacity=".65"/>
+<path d="M174 574c-27-108 0-248 82-333 43-44 99-74 165-92-58 93-88 174-74 252 13 76 75 154 103 231-86 35-200 18-276-58Z" fill="url(#cool)"/>
+<path d="M595 585c-31 35-95 59-157 45-32-7-59-23-75-50-40-68-32-166 15-254 47-89 120-128 204-151 13 69 9 128-29 187-44 70-26 131 42 223Z" fill="url(#warm)"/>
+<path d="M289 292c-10-17-4-43 12-61 20-22 56-20 77-1 13 12 19 36 7 57-9 16-29 22-40 38-10 17-8 33 9 53-40-7-80-45-65-86Z" fill="#f4d4c1"/>
+<path d="M458 354c-15-17-9-51 12-68 19-15 47-13 65 4 24 24 20 52 0 72-23 21-32 43-27 69-29-10-41-26-50-48-6-13-1-23 0-29Z" fill="url(#cream)"/>
+<path d="M340 464c42 24 69 21 105-8" stroke="#fff3e7" stroke-width="11" stroke-linecap="round" fill="none"/>
+<path d="M269 475c46 64 139 115 218 38" stroke="#f8ece0" stroke-width="3" stroke-linecap="round" fill="none" opacity=".7"/>
+<path d="M299 471c49 54 124 77 193 17" stroke="#6f5075" stroke-width="2" stroke-linecap="round" fill="none" opacity=".35"/>
+<path d="M383 642c45 6 101-14 129-35" stroke="#fff4e7" stroke-width="3" fill="none" opacity=".8"/>
+<g fill="#faf4e9"><circle cx="164" cy="305" r="8"/><circle cx="616" cy="366" r="6"/><circle cx="566" cy="152" r="7"/></g>
+<g fill="#6e5373" opacity=".7"><circle cx="219" cy="195" r="4"/><circle cx="624" cy="489" r="4"/><circle cx="465" cy="119" r="3"/></g>
+<path d="M84 395l18 0M94 386l0 18M644 220l22 0M655 209l0 22" stroke="#8f768c" stroke-width="2" opacity=".65"/>
+<text x="112" y="721" fill="#7b6476" font-family="Arial,sans-serif" font-size="15" letter-spacing="4">CONNECTION · CARE · GROWTH</text>
+</svg>
