@@ -345,3 +345,29 @@ img{max-width:100%}
     right: 18px;
   }
 }
+
+
+/* ==========================================
+   FIXED HEADER DURING SCROLLING
+   ========================================== */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fcf9f5;
+    box-shadow: 0 2px 12px rgba(91, 58, 82, 0.06);
+}
+
+/* Prevent the header from covering section titles
+   when clicking navigation links */
+
+html {
+    scroll-padding-top: 180px;
+}
+
+@media (max-width: 768px) {
+    html {
+        scroll-padding-top: 120px;
+    }
+}
