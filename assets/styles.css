@@ -292,3 +292,56 @@ img{max-width:100%}
  .metric{border-left:0;border-top:1px solid #e8d7d5;padding:15px 0}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* ==========================================
+   BOOK COVER — Pais e filhos crescem juntos
+   ========================================== */
+
+.book-grid .book-card--with-cover {
+  position: relative;
+  padding-right: 175px;
+}
+
+/* Clickable cover on the right */
+.book-grid .book-card--with-cover .book-cover-link {
+  position: absolute;
+  top: 50%;
+  right: 28px;
+  transform: translateY(-50%);
+
+  display: block;
+  width: 135px;
+  line-height: 0;
+
+  border-radius: 4px;
+  overflow: hidden;
+
+  transition: transform 0.25s ease,
+              box-shadow 0.25s ease;
+}
+
+/* Image dimensions */
+.book-grid .book-card--with-cover .book-cover-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Subtle hover effect */
+.book-grid .book-card--with-cover .book-cover-link:hover {
+  transform: translateY(-50%) scale(1.04);
+  box-shadow: 0 8px 22px rgba(91, 58, 82, 0.20);
+}
+
+/* Smaller screens */
+@media (max-width: 600px) {
+
+  .book-grid .book-card--with-cover {
+    padding-right: 132px;
+  }
+
+  .book-grid .book-card--with-cover .book-cover-link {
+    width: 94px;
+    right: 18px;
+  }
+}
