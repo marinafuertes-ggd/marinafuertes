@@ -1,6 +1,6 @@
 # Marina Fuertes — Academic Website (Editorial Redesign)
 
-A light, editorial academic website for Prof. Marina Fuertes, distinct from the Francisco Dionísio website. Built as a **static** site in HTML, CSS, SVG and vanilla JavaScript. No build process required.
+A light, editorial academic website for Prof. Marina Fuertes. Built as a **static** site in HTML, CSS, SVG and vanilla JavaScript. No build process required.
 
 ## Visual identity
 
