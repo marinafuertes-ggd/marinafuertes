@@ -371,3 +371,14 @@ html {
         scroll-padding-top: 120px;
     }
 }
+/* Remove the coloured circle and decorative star */
+.hero-art::before,
+.hero-art::after {
+  display: none;
+}
+
+/* Remove the shadow behind the drawing */
+.hero-art .art-inner img {
+  filter: none;
+  background: transparent;
+}
